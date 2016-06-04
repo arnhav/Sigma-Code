@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#ff000000</color>
+    <color name="bright_qcom_blue">#ff309ea4</color>
+    <color name="bright_red">#ffa6040e</color>
+    <color name="bright_red_text">#ffff0000</color>
+    <color name="dark_red_background">#ff3f0206</color>
+    <color name="light_qcom_blue">#ffc1e2e4</color>
+    <color name="light_red_background">#ff790e15</color>
+    <color name="medium_qcom_blue">#ffd6f0fa</color>
+    <color name="medium_red_background">#ff4e0106</color>
+    <color name="transparent_color">#00000000</color>
+    <color name="very_bright_red">#ffbf0510</color>
+    <color name="white">#ffffffff</color>
+</resources>

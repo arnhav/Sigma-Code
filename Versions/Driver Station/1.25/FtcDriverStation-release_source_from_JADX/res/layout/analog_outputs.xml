@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <include android:id="@id/included_header" layout="@layout/header" />
+    <RelativeLayout android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="-1" android:layout_height="-2">
+        <Button android:layout_gravity="1" android:id="@id/analogOutput_devices_saveButton" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:text="@string/done_button" android:onClick="saveanalogOutputDevices" android:layout_marginEnd="5dp" />
+        <Button android:layout_gravity="1" android:id="@id/analogOutput_devices_cancelButton" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:text="@string/cancel" android:layout_toRightOf="@id/analogOutput_devices_saveButton" android:onClick="cancelanalogOutputDevices" android:layout_marginEnd="5dp" android:layout_toEndOf="@id/analogOutput_devices_saveButton" />
+    </RelativeLayout>
+    <View android:background="0x1060000" android:layout_width="-1" android:layout_height="2dp" />
+    <ScrollView android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="1" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="-1" android:layout_height="-2" android:keepScreenOn="true">
+            <View android:background="#ff0000" android:layout_width="-1" android:layout_height="2dp" />
+            <TableLayout android:id="@id/tableLayout_analogOutput_devices" android:layout_width="-1" android:layout_height="-1">
+                <TableRow android:id="@id/table_header" android:padding="5dp" android:layout_width="-2" android:layout_height="-2">
+                    <TextView android:textSize="12sp" android:textStyle="1" android:id="@id/port_title" android:paddingLeft="5dp" android:paddingRight="10dp" android:text="@string/port" />
+                    <TextView android:textSize="12sp" android:textStyle="1" android:id="@id/attached_title" android:text="@string/attached" />
+                </TableRow>
+                <View android:background="#ff0000" android:layout_height="2dp" />
+                <LinearLayout android:orientation="1" android:id="@id/linearLayout_analogOutput1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" />
+                <LinearLayout android:orientation="1" android:id="@id/linearLayout_analogOutput0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" />
+            </TableLayout> />
+    </ScrollView> />

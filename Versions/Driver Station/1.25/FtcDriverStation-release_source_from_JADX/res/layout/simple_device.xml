@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <LinearLayout android:orientation="1" android:padding="0dp" android:layout_width="-1" android:layout_height="-2" android:keepScreenOn="true">
+        <TextView android:textSize="12sp" android:id="@id/portNumber" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:text="@string/default_port" />
+        <RelativeLayout android:id="@id/dropdown_layout" android:layout_width="-1" android:layout_height="-2">
+            <Spinner android:entries="@array/choice_array" android:id="@id/choiceSpinner_legacyModule" android:background="0x1080006" android:layout_width="-2" android:layout_height="-2" android:prompt="@string/choice_prompt" android:spinnerMode="1" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+            <EditText android:id="@id/editTextResult_name" android:layout_width="-1" android:layout_height="-2" android:hint="@string/name_prompt_text" android:maxLength="200" android:inputType="1" />
+            <TextView android:id="@id/titleTextView_analogInput7" android:paddingLeft="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" android:text="@string/name_prompt_undertext" android:layout_below="@id/editTextResult_name" />
+            <Button android:layout_gravity="800005" android:id="@id/edit_controller_btn" android:paddingLeft="10dp" android:paddingRight="10dp" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="0dp" android:text="@string/edit_controller" android:layout_below="@id/titleTextView_analogInput7" android:onClick="editController_portALL" />
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

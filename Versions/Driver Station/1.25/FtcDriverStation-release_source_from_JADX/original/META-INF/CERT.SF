@@ -1,0 +1,202 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: G2xCshIf9KQbnwcYa8Xp1jqSxTw=
+
+Name: res/layout/activity_settings.xml
+SHA1-Digest: kqrfIZ98ppT1DLGNf0zpl368xx8=
+
+Name: res/xml/preferences.xml
+SHA1-Digest: SBcDfmAY01SYFlFG2R2KUml8cxk=
+
+Name: res/drawable-hdpi-v4/icon_voltage.png
+SHA1-Digest: rzF1huA/kMdunyTh/4FDC9tleas=
+
+Name: res/layout/activity_autoconfigure.xml
+SHA1-Digest: 81SIMuZ4rLHvy8FQqPR8LcgO2Zc=
+
+Name: res/drawable-hdpi-v4/icon_controller.png
+SHA1-Digest: vk8srAlC0VIbtEe3MPiTe5HQ0Uk=
+
+Name: res/layout/activity_ftc_pair_wifi_direct.xml
+SHA1-Digest: Q+9Oe1ITG+cDUbF08nTZsdFrQWM=
+
+Name: res/layout/device_name.xml
+SHA1-Digest: W3mGkvoEB+RV1w8IcC8OAAjkrCY=
+
+Name: res/layout/activity_view_logs.xml
+SHA1-Digest: g3aYPAvGDaLOlJbo6yXEfXfGPvo=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA1-Digest: +1HPLpXkefBUpvyeG7FG4YQvCSA=
+
+Name: res/drawable/button_shape.xml
+SHA1-Digest: Wl7OhjqG03XLRMbToURRM368tQw=
+
+Name: res/drawable-hdpi-v4/icon_battery0.png
+SHA1-Digest: ZpIzE5ZJB68MSEf85m/A+gcVn10=
+
+Name: res/layout/activity_load.xml
+SHA1-Digest: rPwjirjzISToxPogULkrvMZKuMs=
+
+Name: res/drawable-hdpi-v4/controlpanel_back.png
+SHA1-Digest: ePcBqx5hmDQuVeL7QRcG+b904d0=
+
+Name: res/drawable-hdpi-v4/circles.png
+SHA1-Digest: frZjG+Ao6LQFjI2aEUJrGIk1UuM=
+
+Name: res/layout/matrices.xml
+SHA1-Digest: LueOtnQmfP5sra83znq2heUunfs=
+
+Name: res/drawable-hdpi-v4/icon_timeron.png
+SHA1-Digest: NhQimX62pAmkKcbo1xpc5XBmIso=
+
+Name: res/layout/activity_ftc_wifi_channel_selector.xml
+SHA1-Digest: QnzBOWFDgBBs/B51QHgdUvl+sVA=
+
+Name: res/layout/digital_devices.xml
+SHA1-Digest: tUx9ChBB0VeelDnjH8cC5mBqPDQ=
+
+Name: res/drawable-hdpi-v4/icon_battery50.png
+SHA1-Digest: eQaiJgYRAy97t3K3bBfk9WAFeCo=
+
+Name: res/drawable-hdpi-v4/icon_init.png
+SHA1-Digest: 0pciPm6PaTTRkwOLyFDVvhfyt2c=
+
+Name: res/anim/fadein.xml
+SHA1-Digest: V/7nl0WyKoFLgbanHU1WIJy0RqI=
+
+Name: res/layout/pwms.xml
+SHA1-Digest: 9439JP1BLG7gE/1EdK879fhHtsY=
+
+Name: res/menu/ftc_driver_station.xml
+SHA1-Digest: p05/KOgOhmafQVJYi1DyDDgRn8M=
+
+Name: res/layout/activity_about.xml
+SHA1-Digest: wS/wkbVWhgGK3lkRiDkwaK1yFC4=
+
+Name: res/layout/activity_config_wifi_direct.xml
+SHA1-Digest: 7tRGhw3kd8YKze1clp4Y+v8b84Q=
+
+Name: res/layout/custom_dialog_title_bar.xml
+SHA1-Digest: SzIZsCZBUlmxPf9eewwtTHEthuc=
+
+Name: res/drawable-hdpi-v4/icon_battery25.png
+SHA1-Digest: eaCmUwhRU8rvDVgv2F9t3OqOHwg=
+
+Name: res/layout/simple_device.xml
+SHA1-Digest: Jn4lKgRaXrIv6kBDN537RxaHB8E=
+
+Name: res/drawable-hdpi-v4/icon_arrow.png
+SHA1-Digest: OYIpmV83NPfgelFKuMCRJFCAuis=
+
+Name: res/layout/shape.xml
+SHA1-Digest: phWrQiZ/BdAjass5TJ2LMz2wwvo=
+
+Name: res/layout/file_info.xml
+SHA1-Digest: 8iMb40Do4wX/IGinIOmO2aTlfUg=
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA1-Digest: eevVrearme9M/NG5tSyEjyvR1zY=
+
+Name: res/layout/i2cs.xml
+SHA1-Digest: cGReN5REz0RXmOK9sq2nv6mBxGA=
+
+Name: res/layout/analog_output_device.xml
+SHA1-Digest: UiMK7lOf3H6m3jSSCU7lT2F7biw=
+
+Name: res/drawable-hdpi-v4/icon_controlleractive.png
+SHA1-Digest: 6wXfrwcn/bnr0dNTzzQaNJ6T6fc=
+
+Name: res/layout/i2c_device.xml
+SHA1-Digest: 9x11X4lht5NBRA/+doqPiqioysE=
+
+Name: res/layout/analog_inputs.xml
+SHA1-Digest: x43+RT2N6KW1DuqmFfwdt2WUNv4=
+
+Name: res/drawable-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: huILvGmhL6s+JRFjQF1P4cSKWMQ=
+
+Name: res/layout/digital_device.xml
+SHA1-Digest: 6pLanf6ohqpuXNYyl+TXP26SNM0=
+
+Name: res/layout/servo.xml
+SHA1-Digest: ZLvgwpcpwgMGHptGOEFMeMh4/fI=
+
+Name: res/layout/matrix_devices.xml
+SHA1-Digest: UuxSU3yD8HzKSCIMRF8apcmKdAQ=
+
+Name: resources.arsc
+SHA1-Digest: QXkezW8cTbX2S5gyVnxT/hTbsKI=
+
+Name: res/drawable-hdpi-v4/button_shape.xml
+SHA1-Digest: h7u8v7VJNYYPNqREUnrjRKn9cQ8=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: Zy0NZFgvDP9ZDYeRbuNJNNS0eSc=
+
+Name: res/layout/activity_ftc_driver_station.xml
+SHA1-Digest: hpUjAa0kuqGb+RhMPh/R2SXYNHE=
+
+Name: res/layout/analog_outputs.xml
+SHA1-Digest: ENBVJUu8bF5BL4j5jce3axPy6qA=
+
+Name: res/drawable-hdpi-v4/icon_robotcontroller.png
+SHA1-Digest: mPLoNCUfC6wvCKXV9HcrPa5tUbI=
+
+Name: AndroidManifest.xml
+SHA1-Digest: OBiuE6sTDozjv8VeyxwgTBAyGXk=
+
+Name: res/layout/motors.xml
+SHA1-Digest: YWadKTIhc4rnRaeR31DD7yuhrKk=
+
+Name: res/anim/fadeout.xml
+SHA1-Digest: tfA2jaKs38N+XDFuTRAjLZ1Qzd8=
+
+Name: res/layout/orange_warning.xml
+SHA1-Digest: V0cwG1nO0YmO82mrxcw/yGlMv2M=
+
+Name: res/layout/device_interface_module.xml
+SHA1-Digest: lc7qWa05DEXDP1cIcaVP3/T3/5k=
+
+Name: res/layout/info_button.xml
+SHA1-Digest: +0kZQZhRZlF3XKwwPVl2UAKZlsg=
+
+Name: res/drawable-hdpi-v4/icon_battery100.png
+SHA1-Digest: HZe0Xwz2t61QYnpBTm76RjVolpQ=
+
+Name: res/drawable-hdpi-v4/icon_play.png
+SHA1-Digest: 2PZESYKoCjPIhp4ST8+82HDffsQ=
+
+Name: res/layout/header.xml
+SHA1-Digest: yel2wfVAgSV1K7DrQzNEbPJHQLg=
+
+Name: res/drawable-hdpi-v4/icon_menu.png
+SHA1-Digest: 9qQYim/SmIjzI+HLSbvQvHHxw6s=
+
+Name: res/layout/legacy.xml
+SHA1-Digest: DKhKSnW1BPcxNmG4BZguhdknXTE=
+
+Name: res/layout/pwm_device.xml
+SHA1-Digest: Z6GpUxpXCx7Htm0aF+v9O/w3yvk=
+
+Name: classes.dex
+SHA1-Digest: jaRnLrFeRGdLzeEKT6AcgttOiFw=
+
+Name: res/drawable-hdpi-v4/icon_timeroff.png
+SHA1-Digest: KL1maGb/M8nmj+yXXs1X0R/Vp/I=
+
+Name: res/drawable-hdpi-v4/icon_stop.png
+SHA1-Digest: 1ZpSVed3Ktlafuvj2qh2QUmdY6Y=
+
+Name: res/drawable-hdpi-v4/icon_battery75.png
+SHA1-Digest: t4ug/QryCbo3nrJsHrTzTIxb+sU=
+
+Name: res/layout/activity_ftc_configuration.xml
+SHA1-Digest: 6Mwj1LwGQyyUS6xqfqijK2wBRiM=
+
+Name: res/layout/analog_input_device.xml
+SHA1-Digest: 2GCKr4W2BhMf63VtlY0NTo2gu3w=
+
+Name: res/layout/servos.xml
+SHA1-Digest: YO+4/HAVZLeCpVULAhA+TOmFVmM=
+

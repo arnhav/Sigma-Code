@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TableRow android:id="@id/row_port_digital_device" android:padding="2dp" android:layout_width="-2" android:layout_height="-2">
+        <TextView android:textSize="22sp" android:textStyle="1" android:id="@id/port_number_digital_device" android:paddingLeft="5dp" android:paddingRight="5dp" android:text="0" />
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+            <Spinner android:entries="@array/choice_array_digital_device" android:id="@id/choiceSpinner_digital_device" android:background="0x1080006" android:layout_width="-2" android:layout_height="-2" android:prompt="@string/choice_prompt_digital_device" android:spinnerMode="1" />
+            <EditText android:id="@id/editTextResult_digital_device" android:layout_width="-2" android:layout_height="-2" android:hint="@string/input_name_hint" android:maxLength="200" android:layout_below="@id/choiceSpinner_digital_device" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:inputType="1" />
+            <TextView android:id="@id/titleTextView_digital_device" android:layout_width="-1" android:layout_height="-2" android:text="@string/input_name_label" android:layout_below="@id/editTextResult_digital_device" />
+        </RelativeLayout>
+    </TableRow>
+</merge>

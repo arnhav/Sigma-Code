@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="choice_array">
+        <item>GYRO</item>
+        <item>TOUCH_SENSOR</item>
+        <item>COMPASS</item>
+        <item>IR_SEEKER</item>
+        <item>LIGHT_SENSOR</item>
+        <item>ACCELEROMETER</item>
+        <item>ULTRASONIC_SENSOR</item>
+        <item>MOTOR_CONTROLLER</item>
+        <item>SERVO_CONTROLLER</item>
+        <item>MATRIX_CONTROLLER</item>
+        <item>TOUCH_SENSOR_MULTIPLEXER</item>
+        <item>COLOR_SENSOR</item>
+        <item>NOTHING</item>
+    </string-array>
+    <string-array name="choice_array_analogInput">
+        <item>NOTHING</item>
+        <item>OPTICAL_DISTANCE_SENSOR</item>
+        <item>ANALOG_INPUT</item>
+    </string-array>
+    <string-array name="choice_array_analogOutput">
+        <item>NOTHING</item>
+        <item>ANALOG_OUTPUT</item>
+    </string-array>
+    <string-array name="choice_array_digital_device">
+        <item>NOTHING</item>
+        <item>TOUCH_SENSOR</item>
+        <item>LED</item>
+        <item>DIGITAL_DEVICE</item>
+    </string-array>
+    <string-array name="choice_array_i2c">
+        <item>NOTHING</item>
+        <item>IR_SEEKER_V3</item>
+        <item>ADAFRUIT_COLOR_SENSOR</item>
+        <item>COLOR_SENSOR</item>
+        <item>GYRO</item>
+        <item>I2C_DEVICE</item>
+    </string-array>
+    <string-array name="device_interface_module_options_array">
+        <item>PWM Devices</item>
+        <item>I2C Devices</item>
+        <item>Analog Input Devices</item>
+        <item>Digital Devices</item>
+        <item>Analog Output Devices</item>
+    </string-array>
+    <string-array name="pref_gamepad_type_entries">
+        <item>@string/gamepad_logitech_f310</item>
+        <item>@string/gamepad_microsoft_xbox_360</item>
+        <item>@string/gamepad_android_standard</item>
+    </string-array>
+    <string-array name="wifi_direct_channels">
+        <item>Auto - device selects channel</item>
+        <item>2.4GHz, Channel 1</item>
+        <item>2.4GHz, Channel 6</item>
+        <item>2.4GHz, Channel 11</item>
+        <item>5GHz, Channel 149</item>
+        <item>5GHz, Channel 153</item>
+        <item>5GHz, Channel 157</item>
+        <item>5GHz, Channel 161</item>
+    </string-array>
+</resources>

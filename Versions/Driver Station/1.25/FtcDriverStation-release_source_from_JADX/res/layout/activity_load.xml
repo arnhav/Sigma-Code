@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <include android:id="@id/included_header" layout="@layout/header" />
+    <LinearLayout android:orientation="1" android:id="@id/holds_buttons" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="5dp" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-1" android:layout_above="@id/load_bottom" android:layout_below="@id/included_header">
+        <Button android:textSize="16sp" android:id="@id/new_button" android:layout_width="-2" android:layout_height="-2" android:minWidth="0dp" android:minHeight="0dp" android:text="New" android:onClick="new_button" />
+        <View android:background="#ff0000" android:layout_width="-1" android:layout_height="2dp" />
+        <RelativeLayout android:id="@id/files_holder" android:layout_width="-2" android:layout_height="-2">
+            <TextView android:textSize="14sp" android:textStyle="1" android:layout_width="-2" android:layout_height="-2" android:text="Available files:" />
+            <include android:layout_width="60dp" android:layout_height="60dp" layout="@layout/info_button" />
+        </RelativeLayout>
+        <ScrollView android:layout_width="-1" android:layout_height="-2" android:fillViewport="true">
+            <LinearLayout android:orientation="1" android:id="@id/inclusionlayout" android:layout_width="-1" android:layout_height="0dp" />
+        </ScrollView>
+        <LinearLayout android:layout_gravity="11" android:orientation="0" android:id="@id/empty_filelist" android:layout_width="-2" android:layout_height="-2" /> />
+    <LinearLayout android:orientation="1" android:id="@id/load_bottom" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="5dp" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+        <View android:background="#ff0000" android:layout_width="-1" android:layout_height="2dp" />
+        <RelativeLayout android:orientation="0" android:id="@id/autoconfigure_holder" android:layout_width="-2" android:layout_height="-2">
+            <Button android:textSize="16sp" android:id="@id/autoconfigure" android:layout_width="-2" android:layout_height="-2" android:minWidth="0dp" android:minHeight="0dp" android:text="@string/autoconfigure" android:onClick="launch_autoConfigure" />
+            <include android:layout_width="60dp" android:layout_height="60dp" layout="@layout/info_button" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

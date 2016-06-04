@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@id/header" android:background="@color/light_qcom_blue" android:paddingLeft="8dp" android:paddingTop="2dp" android:paddingRight="8dp" android:paddingBottom="2dp" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:id="@id/textView1" android:layout_width="0dp" android:layout_height="-2" android:text="Active Configuration File:" android:layout_weight="1.0" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:id="@id/active_filename" android:layout_width="-2" android:layout_height="-2" />
+</LinearLayout>

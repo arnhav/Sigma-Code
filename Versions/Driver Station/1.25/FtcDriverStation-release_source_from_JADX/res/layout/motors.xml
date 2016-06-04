@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <include android:id="@id/included_header" layout="@layout/header" />
+    <RelativeLayout android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="-1" android:layout_height="-2">
+        <Button android:layout_gravity="1" android:id="@id/pwm_devices_saveButton" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:text="@string/done_button" android:onClick="saveMotorController" android:layout_marginEnd="5dp" />
+        <Button android:layout_gravity="1" android:id="@id/pwm_devices_cancelButton" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:text="@string/cancel" android:layout_toRightOf="@id/pwm_devices_saveButton" android:onClick="cancelMotorController" android:layout_marginEnd="5dp" android:layout_toEndOf="@id/pwm_devices_saveButton" />
+    </RelativeLayout>
+    <View android:background="0x1060000" android:layout_width="-1" android:layout_height="2dp" />
+    <ScrollView android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="1" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="-1" android:layout_height="-2" android:keepScreenOn="true">
+            <EditText android:textSize="18sp" android:textStyle="1" android:id="@id/controller_name" android:layout_width="-1" android:layout_height="-2" android:text="@string/motor_controller_name" android:hint="@string/name_prompt_text" android:maxLength="200" android:inputType="1" />
+            <TextView android:id="@id/motor_controller_serialNumber" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginStart="8dp" />
+            <TextView android:id="@id/controller_name_text" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="30dp" android:text="@string/motor_controller_name_text" />
+            <View android:background="#ff0000" android:layout_width="-1" android:layout_height="2dp" />
+            <TableLayout android:id="@id/tableLayout_pwm_devices" android:layout_width="-1" android:layout_height="-1">
+                <TableRow android:id="@id/table_header" android:padding="5dp" android:layout_width="-2" android:layout_height="-2">
+                    <TextView android:textSize="12sp" android:textStyle="1" android:id="@id/port_title" android:paddingLeft="5dp" android:paddingRight="10dp" android:text="@string/port" />
+                    <TextView android:textSize="12sp" android:textStyle="1" android:id="@id/attached_title" android:text="@string/attached" />
+                </TableRow>
+                <View android:background="#ff0000" android:layout_height="2dp" />
+                <TableRow android:id="@id/row_port" android:padding="5dp" android:layout_width="-2" android:layout_height="-2">
+                    <TextView android:textSize="22sp" android:textStyle="1" android:id="@id/port7" android:paddingLeft="5dp" android:paddingRight="5dp" android:text="@string/motor_port1" />
+                    <CheckBox android:id="@id/checkbox_port7" android:layout_width="-2" android:layout_height="-2" />
+                    <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+                        <EditText android:id="@id/editTextResult_analogInput7" android:layout_width="-1" android:layout_height="-2" android:hint="@string/motor_name" android:maxLength="200" android:inputType="1" />
+                        <TextView android:id="@id/titleTextView_analogInput7" android:layout_width="-1" android:layout_height="-2" android:text="@string/motor_name_prompt" android:layout_below="@id/editTextResult_analogInput7" />
+                    </RelativeLayout>
+                </TableRow>
+                <TableRow android:id="@id/row_port5" android:padding="2dp" android:layout_width="-2" android:layout_height="-2">
+                    <TextView android:textSize="22sp" android:textStyle="1" android:id="@id/port5" android:paddingLeft="5dp" android:paddingRight="5dp" android:text="@string/motor_port2" />
+                    <CheckBox android:id="@id/checkbox_port6" android:layout_width="-2" android:layout_height="-2" />
+                    <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+                        <EditText android:id="@id/editTextResult_analogInput6" android:layout_width="-2" android:layout_height="-2" android:hint="@string/name_prompt_text" android:maxLength="200" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:inputType="1" />
+                        <TextView android:id="@id/titleTextView_motor2" android:layout_width="-1" android:layout_height="-2" android:text="@string/motor_name_prompt" android:layout_below="@id/editTextResult_analogInput6" />
+                    </RelativeLayout>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

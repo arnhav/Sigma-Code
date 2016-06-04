@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <include android:id="@id/included_header" layout="@layout/header" />
+    <LinearLayout android:orientation="1" android:id="@id/holdsDevices" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="5dp" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-1" android:layout_above="@id/scan_bottom" android:layout_below="@id/included_header">
+        <Button android:textSize="12sp" android:id="@id/scanButton" android:layout_width="-2" android:layout_height="-2" android:minWidth="0dp" android:minHeight="0dp" android:text="@string/scan" />
+        <TextView android:id="@id/scanButton_text" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp" android:text="@string/scanButton_text" />
+        <LinearLayout android:layout_gravity="11" android:orientation="0" android:id="@id/warning_layout" android:layout_width="-2" android:layout_height="-2" />
+        <View android:background="#ff0000" android:layout_width="-1" android:layout_height="2dp" />
+        <RelativeLayout android:orientation="0" android:id="@id/devices_holder" android:layout_width="-2" android:layout_height="-2">
+            <TextView android:textSize="16sp" android:textStyle="1" android:layout_width="-2" android:layout_height="-2" android:text="Devices:" />
+            <include android:id="@id/devices_info_btn" android:onClick="devices_info" layout="@layout/info_button" />
+        </RelativeLayout>
+        <ScrollView android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+                <ListView android:id="@id/controllersList" android:layout_width="-1" android:layout_height="-2" />
+                <LinearLayout android:layout_gravity="11" android:orientation="0" android:id="@id/empty_devicelist" android:layout_width="-2" android:layout_height="-1" /> />
+        </ScrollView> />
+    <LinearLayout android:orientation="1" android:id="@id/scan_bottom" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="8dp" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="5dp" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+        <View android:background="#ff0000" android:layout_width="-1" android:layout_height="2dp" />
+        <RelativeLayout android:orientation="0" android:id="@id/save_holder" android:layout_width="-2" android:layout_height="-2">
+            <Button android:textSize="12sp" android:id="@id/writeXML" android:layout_width="-2" android:layout_height="-2" android:minWidth="0dp" android:minHeight="0dp" android:text="@string/save_configuration" android:onClick="saveConfiguration" />
+            <include android:id="@id/save_config_btn" android:layout_width="60dp" android:layout_height="60dp" android:onClick="save_config" layout="@layout/info_button" />
+        </RelativeLayout>
+        <TextView android:id="@id/writeXML_text" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" android:text="@string/writeXML_text" />
+    </LinearLayout>
+</RelativeLayout>

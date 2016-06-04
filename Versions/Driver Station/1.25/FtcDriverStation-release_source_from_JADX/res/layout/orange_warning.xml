@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/orange_warning" android:background="@layout/shape" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp"
+    <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_margin="1dp"
+        <LinearLayout android:gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+            <TextView android:textSize="14sp" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:id="@id/orangetext0" android:padding="3dp" android:layout_width="-1" android:layout_height="-2" />
+            <TextView android:textSize="14sp" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:id="@id/orangetext1" android:padding="3dp" android:layout_width="-1" android:layout_height="-2" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

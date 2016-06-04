@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory android:title="@string/pref_gamepad_title">
+        <ListPreference android:entries="@array/pref_gamepad_type_entries" android:title="@string/pref_gamepad_user1_type_title" android:key="@string/pref_gamepad_user1_type_key" android:summary="%s" android:defaultValue="@string/gamepad_default" android:dialogTitle="@string/pref_gamepad_user1_type_title" android:entryValues="@array/pref_gamepad_type_entries" />
+        <ListPreference android:entries="@array/pref_gamepad_type_entries" android:title="@string/pref_gamepad_user2_type_title" android:key="@string/pref_gamepad_user2_type_key" android:summary="%s" android:defaultValue="@string/gamepad_default" android:dialogTitle="@string/pref_gamepad_user2_type_title" android:entryValues="@array/pref_gamepad_type_entries" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_logging_title">
+        <CheckBoxPreference android:title="@string/pref_log_network_traffic_title" android:key="@string/pref_log_network_traffic_key" android:summary="@string/pref_log_network_traffic_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_wifi_config_title">
+        <PreferenceScreen android:title="@string/pref_pair_rc_title" android:key="pref_pair_rc" android:summary="@string/pref_pair_rc_summary">
+            <intent android:targetPackage="com.qualcomm.ftcdriverstation" android:action="android.intent.action.VIEW" android:data="com.qualcomm.ftcdriverstation.FtcPairWifiDirectActivity" android:targetClass="com.qualcomm.ftcdriverstation.FtcPairWifiDirectActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

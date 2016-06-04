@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/file_info_layout" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="-1" android:layout_height="-1" android:animateLayoutChanges="true">
+    <TableLayout android:id="@id/file_buttons" android:layout_width="-1" android:layout_height="-2" android:stretchColumns="1" android:shrinkColumns="0">
+        <TableRow android:id="@id/table_header" android:padding="5dp" android:layout_width="-2" android:layout_height="-2">
+            <LinearLayout android:orientation="1" android:id="@id/linearLayout" android:layout_width="-2" android:layout_height="-2">
+                <TextView android:textSize="20sp" android:id="@id/filename_editText" android:layout_width="300dp" android:layout_height="-2" android:text="@string/filename_editText" android:maxLength="200" />
+                <LinearLayout android:orientation="0" android:id="@id/horizontalButtons" android:layout_width="-2" android:layout_height="-2">
+                    <Button android:textSize="16sp" android:id="@id/file_edit_button" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="3dp" android:text="@string/file_edit_button" android:onClick="file_edit_button" android:layout_marginEnd="3dp" />
+                    <Button android:textSize="16sp" android:id="@id/file_activate_button" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="3dp" android:text="@string/file_activate_button" android:onClick="file_activate_button" android:layout_marginEnd="3dp" />
+                    <Button android:textSize="16sp" android:id="@id/file_delete_button" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="3dp" android:text="@string/file_delete_button" android:onClick="file_delete_button" android:layout_marginEnd="3dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+    <ListView android:id="@id/controllers" android:layout_width="-1" android:layout_height="-2" />
+</LinearLayout>
